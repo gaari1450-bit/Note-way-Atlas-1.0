@@ -400,11 +400,27 @@
 
     <!-- SCRIPTS -->
     
-
-<script src="menu.js">
-</script>
+    <!-- NOTIFICATION DES VISITES -->
+    <script>
+    // SIMPLE MAILTO POUR gaa485780@gmail.com
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            const sujet = "🚀 Visite NOTEWAY";
+            const message = `Bonjour !\n\nQuelqu'un visite NOTEWAY en ce moment.\n\nDate: ${new Date().toLocaleDateString('fr-FR')}\nHeure: ${new Date().toLocaleTimeString('fr-FR')}\n\nContinue comme ça ! 💪`;
+            
+            const lien = document.createElement('a');
+            lien.href = `mailto:gaa485780@gmail.com?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(message)}`;
+            document.body.appendChild(lien);
+            lien.click();
+            document.body.removeChild(lien);
+        }, 1500);
+    });
+    </script>
+    
+    <!-- MENU SCRIPT -->
+    <script src="menu.js"></script>
+</body>
+</html>
 
 
     
-</body>
-</html>
