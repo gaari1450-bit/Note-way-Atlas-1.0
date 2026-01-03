@@ -23,7 +23,7 @@ const CONFIG_LYCEE = {
     'seconde_a4': {
         nom: "Seconde A4",
         matieres: [
-            { code: 'fr', nom: 'Français', coef: 3 },
+            { code: 'fr', nom: 'Français', coef: 1 },
             { code: 'ang', nom: 'Anglais', coef: 3 },
             { code: 'his', nom: 'Histoire-Géographie', coef: 4 },
             { code: 'ecm', nom: 'ECM', coef: 2 },
@@ -75,7 +75,7 @@ const CONFIG_LYCEE = {
     'premiere_a4': {
         nom: "Première A4",
         matieres: [
-            { code: 'fr', nom: 'Français', coef: 6 },
+            { code: 'fr', nom: 'Français', coef: 1 },
             { code: 'ang', nom: 'Anglais', coef: 4 },
             { code: 'his', nom: 'Histoire-Géographie', coef: 4 },
             { code: 'ecm', nom: 'ECM', coef: 2 },
